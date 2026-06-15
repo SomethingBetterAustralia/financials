@@ -2,7 +2,7 @@
 
 **The audit trail behind the Something Better Australia's [Financials page](https://somethingbetteraustralia.com/financials).**
 
-Every dollar in. Every dollar out. Every transaction visible. Australian political parties are only legally required to disclose donations  once a year, and only if they're above a threshhold in returns to the [Australian Electoral Commission](https://www.aec.gov.au) (AEC). [Something Better Australia](https://somethingbetteraustralia.com) (SBA) — an evidence-led grassroots movement working toward Australia's next major political party — has committed to the opposite extreme: publish every transaction, regularly, in a public repository whose history can't be quietly rewritten. This is that repository.
+While some political parties do the bare minimum (disclosing donations once a year and only if they're above the AEC threashhold), Something Better Australia believes Australians deserve full transparency. Every dollar in. Every dollar out. Every transaction visible. [Something Better Australia](https://somethingbetteraustralia.com) (SBA) is an evidence-led grassroots movement working toward Australia's next major political party, and committed to publishing every transaction, regularly, in a public repository where history can't be quietly rewritten. This is that repository.
 
 ## Project status: zero
 
@@ -12,7 +12,7 @@ There is no ledger in this repository yet. The pipeline that will produce it is 
 
 What will be published here, once live:
 
-- **Every transaction**, income and expenses categorised.
+- **Every transaction**, each income and expense will be categorised.
 - **A versioned history.** Corrections, reclassifications and late entries are made as new commits. `Git log` shows every change ever made and when it was made; `git diff` shows exactly what changed.
 - **A regular cadence**, not real time — entries land after bank reconciliation (see the privacy section on lag).
 
@@ -33,10 +33,10 @@ Every step that can be open source will be. Every correction stays visible in ve
 
 A public ledger is not a public donor list. The rules:
 
-- **Individual donors are aggregated by default**, in line with the AEC's privacy regime. Most donations appear as a generic "individual donation" line with no identifying information.
+- **Individual donors are aggregated by default**, in line with the AEC's privacy regime. Donations will appear as a generic "individual donation" with no identifying information.
 - **Donors who specifically request public acknowledgement may be named.** Consent first, always.
 - **Founder contributions are named openly**, where the founder has consented.
-- **There is a short lag** — typically a few days — between a transaction settling and appearing here, because bank reconciliation takes time. Slow and right beats fast and wrong.
+- **There is a short lag** typically a few days between a transaction settling and appearing here, as bank reconciliation takes time. Slow and right beats fast and wrong.
 
 ## Contributing — verifying us, and the pipeline
 
