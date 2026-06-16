@@ -34,7 +34,7 @@ Every step that can be open source will be. Every correction stays visible in ve
 A public ledger is not a public donor list. The rules:
 
 - **Individual donors are aggregated by default**, in line with the AEC's privacy regime. Donations will appear as a generic "individual donation" with no identifying information.
-- **Donors who specifically request public acknowledgement may be named.** Consent first, always.
+- **Donors who consent to public acknowledgement may be named.** Consent first, always.
 - **Founder contributions are named openly**, where the founder has consented.
 - **There is a short lag** typically a few days between a transaction settling and appearing here, as bank reconciliation takes time. Slow and right beats fast and wrong.
 
